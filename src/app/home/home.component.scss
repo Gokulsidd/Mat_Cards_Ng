@@ -1,0 +1,41 @@
+.container {
+  .card-container {
+    background-color: rgb(248, 250, 249);
+
+    mat-paginator {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: end;
+      justify-content: flex-end;
+      font-size: 20px;
+      color: rgb(90, 89, 89);
+      font-style: bold;
+      
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      app-card {
+        margin-top: 88px;
+      }
+    }
+  }
+}
+
+mat-toolbar {
+  background-color:rgb(107, 6, 179) ;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  height: 80px;
+
+  span {
+    margin-left: 30px;
+    color: azure;
+  }
+}
